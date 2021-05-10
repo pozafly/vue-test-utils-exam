@@ -1,5 +1,12 @@
 # vue2-boilerplate-2021
 
+## Install Plugin
+- vetur
+- Vue VSCode Snippets
+- ESLint, TSLint
+- Live Server
+- Prettier, Project Manager, Auto Close Tag, GitLens, Atom Keymap
+
 ## Project setup
 ```
 npm install
