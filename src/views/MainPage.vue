@@ -1,9 +1,20 @@
 <template>
-  <div>MainPage</div>
+  <div class="aaa">
+    MainPage
+    <span class="ddd">ddd</span>
+  </div>
 </template>
 
 <script>
 export default {};
 </script>
 
-<style></style>
+<style lang="scss">
+$bgColor: red;
+.aaa {
+  color: $bgColor;
+  .ddd {
+    color: yellow;
+  }
+}
+</style>
