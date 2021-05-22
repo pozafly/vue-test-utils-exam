@@ -1,11 +1,17 @@
 # vue2-boilerplate-2021
 
-## Install Plugin
+## 깔면 좋은 Plugin
 - vetur
 - Vue VSCode Snippets
 - ESLint, TSLint
 - Live Server
 - Prettier, Project Manager, Auto Close Tag, GitLens, Atom Keymap
+- 단, Prettier를 해당 폴더에 비활성화 하자.
+
+## 적용 되어 있는 것
+Vuex, Vue-router, SCSS
+
+<br/>
 
 ## Project setup
 ```
@@ -26,6 +32,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
