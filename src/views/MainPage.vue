@@ -1,20 +1,24 @@
 <template>
-  <div class="aaa">
+  <div class="color-red">
     MainPage
-    <span class="ddd">ddd</span>
+    <BoilerPlateComponent msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 
 <script>
-export default {};
+import BoilerPlateComponent from '@/components/BoilerPlateComponent.vue';
+
+export default {
+  components: {
+    BoilerPlateComponent,
+  },
+};
 </script>
 
 <style lang="scss">
 $bgColor: red;
-.aaa {
+
+.color-red {
   color: $bgColor;
-  .ddd {
-    color: yellow;
-  }
 }
 </style>

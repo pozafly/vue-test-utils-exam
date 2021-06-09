@@ -1,9 +1,25 @@
 <template>
-  <div>example</div>
+  <div>
+    <div class="msg">
+      {{ msg }}
+    </div>
+  </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    msg: {
+      type: String,
+      default: '',
+    },
+  },
+};
 </script>
 
-<style></style>
+<style>
+.msg {
+  color: #000;
+  font-size: 3rem;
+}
+</style>
