@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils';
-import Counter from '../Counter.vue';
+import Counter from './Counter.vue';
 
 test.skip('increments counter value on click', async () => {
   const wrapper = mount(Counter);

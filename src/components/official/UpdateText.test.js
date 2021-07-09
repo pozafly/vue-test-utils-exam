@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import UpdateText from '../UpdateText.vue';
+import UpdateText from './UpdateText.vue';
 
 it.skip('updates text', async () => {
   const wrapper = shallowMount(UpdateText);
