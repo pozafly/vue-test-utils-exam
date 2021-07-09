@@ -1,4 +1,5 @@
-describe('Jest Hooks', () => {
+// skip을 붙여주면 건너뛴다.
+describe.skip('Jest Hooks', () => {
   beforeAll(() => {
     console.log('beforeAll');
   });
